@@ -1,0 +1,40 @@
+button.substract {
+    font-size: 15px;
+    background-color: rgba(45, 132, 138, 0.842);
+    color:white;
+    border:0.1em solid #60a1b4;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-decoration:none;
+    border-radius: 10px;
+   padding: 5px 8px 5px 8px;
+    
+    }
+    button.substract:hover {
+        color:rgb(43, 128, 134);
+        border:0.1em solid rgba(45, 132, 138, 0.842);
+        background-color:white
+    
+    }
+    button.add {
+        font-size: 15px;
+        background-color: rgba(45, 132, 138, 0.842);
+        color:white;
+        border:0.1em solid #60a1b4;
+        cursor: pointer;
+        transition: all 0.2s;
+        text-decoration:none;
+        border-radius: 10px;
+       padding: 5px 8px 5px 8px;
+    }
+    button.add:hover {
+        color:rgb(43, 128, 134);
+        border:0.1em solid rgba(45, 132, 138, 0.842);
+        background-color:white
+    
+    }
+
+    .total-stock{
+        color: rgb(59, 113, 117);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }

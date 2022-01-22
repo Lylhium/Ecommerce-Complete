@@ -1,0 +1,19 @@
+div.number {
+
+    padding-top: 130px;
+    text-align: center;
+    font-size: 200px;
+    color: rgb(43, 43, 43);
+}
+div.not-found-text {
+
+    text-align: center;
+    font-size: 50px;
+    color: rgb(54, 54, 54);
+}
+div.description {
+    text-align: center;
+    padding-bottom: 70px;
+    font-size: 25px;
+    color: rgb(77, 77, 77);
+}

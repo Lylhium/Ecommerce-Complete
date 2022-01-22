@@ -1,0 +1,43 @@
+
+div.main-title{
+    background-color: rgba(38, 110, 116, 0.842);
+     border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    
+    
+}
+div.subtitulo {
+    padding-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    padding-bottom: 15px;
+    
+}
+div.Contenedor{
+    font-size: 25px;
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    object-fit: contain;
+    object-position: top;
+    animation: fadein 1s ease-in-out forwards;
+    animation-delay: 0.1s;
+    opacity: 0;
+}
+@keyframes fadein{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+img.pfp {
+    height:auto;
+    width: 38%;  
+    border-radius: 15px;
+
+}
+img.local {
+    width: 50%;
+    height:auto;
+    border-radius: 15px;
+
+}

@@ -1,0 +1,116 @@
+
+div.cart-producto{
+    display: flex;
+}
+img.imagen-producto{
+    width: 20%;
+}
+
+div.cart-title{
+    text-align: center;
+    color: rgb(41, 134, 114);
+    padding-top: 100px;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+div.cart-title-box{
+    color: rgb(39, 107, 92);
+    padding-top: 100px;
+}
+
+div.cart-price-box{
+    padding-top: 200px;
+    
+}
+
+div.buttons-cart{
+    padding-top: 250px;
+}
+
+div.delete-btn{
+    padding-left: 400px;
+    padding-top: 120px;
+    
+}
+button.delete-btn{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid rgb(216, 42, 42);
+    margin:0 0.3em 0.3em 0;
+    border-radius:15px;
+    box-sizing: border-box;
+    text-decoration:none;
+    display: center;
+    font-size: 18px;
+    color:white;
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+    background-color: rgb(216, 42, 42);
+        }
+.delete-btn:hover{
+    color:rgb(216, 42, 42);
+    background-color:white
+        }
+
+.total-product-cart{
+    padding-top: 20px;
+    text-align: end;
+}
+
+.total-price-box{
+    text-align: end;
+}
+
+.clear-button{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #60a1b4;
+    margin:0 0.3em 0.3em 0;
+    border-radius:15px;
+    box-sizing: border-box;
+    text-decoration:none;
+    display: center;
+    font-size: 18px;
+    color:white;
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+    background-color: rgba(45, 132, 138, 0.842);
+}
+
+.clear-button:hover{
+    color:rgb(43, 128, 134);
+    border:0.1em solid rgba(45, 132, 138, 0.842);
+    background-color:white
+        }
+        .button-buy-position{
+            padding-top: 50px;
+            text-align: end;
+            
+        }
+        .button-buy{
+            padding-top: 150px;
+            display:inline-block;
+            padding:0.35em 1.2em;
+            border:0.1em solid #60a1b4;
+            margin:0 0.3em 0.3em 0;
+            border-radius:15px;
+            box-sizing: border-box;
+            text-decoration:none;
+            display: center;
+            font-size: 25px;
+            color:white;
+            text-align:center;
+            transition: all 0.2s;
+            cursor: pointer;
+            background-color: rgba(35, 86, 90, 0.842);
+        }
+        .button-buy:hover{
+            
+            color:rgb(43, 128, 134);
+            border:0.1em solid rgba(45, 132, 138, 0.842);
+            background-color:white
+                }

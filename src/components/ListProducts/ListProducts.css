@@ -1,0 +1,7 @@
+div.loading {
+    height: auto;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    transition: all 0.2s;
+}

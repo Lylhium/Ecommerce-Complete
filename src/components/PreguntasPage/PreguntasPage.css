@@ -1,0 +1,62 @@
+div.img-preguntas  {
+   width: 100%;
+   height: auto;
+   padding-top: 100px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+img.img-preg {
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+}
+
+div.title-1 {
+    text-align: center;
+    font-size: 35px;
+   
+   background-color: rgba(38, 110, 116, 0.842);
+    color: rgb(255, 255, 255);
+}
+
+div.title-2 {
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img.img-tarj {
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+    text-align: center;
+}
+div.img-preguntas-2  {
+
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+     text-align: center;
+ }
+
+ 
+div.title-3 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.Contenedor-Questions{
+    object-fit: contain;
+    object-position: top;
+    animation: fadein 1s ease-in-out forwards;
+    animation-delay: 0.1s;
+    opacity: 0;
+}
+@keyframes fadein{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

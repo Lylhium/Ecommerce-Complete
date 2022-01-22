@@ -1,0 +1,36 @@
+img.img-detail{
+    padding-top: 30px;
+    width: 50%;
+    object-fit: contain;
+    object-position: top;
+    animation: fadein 1s ease-in-out forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+@keyframes fadein{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+div.Item-Detail {
+    object-fit: contain;
+    object-position: top;
+    animation: fadein 1s ease-in-out forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+    display: flex;
+}
+
+div.item-title-desc{
+    padding-top: 100px;
+}
+
+div.descuento{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+div.item-desc{
+    color: rgb(41, 134, 114);
+    font-size: 25px;
+    font-weight: 600;
+}
